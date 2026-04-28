@@ -64,7 +64,7 @@
   });
 
   // === Reveal on Scroll (Intersection Observer) ===
-  const revealEls = document.querySelectorAll('.reveal');
+  const revealEls = document.querySelectorAll('.reveal, .reveal-left, .reveal-right');
   if ('IntersectionObserver' in window && revealEls.length) {
     const observer = new IntersectionObserver(function (entries) {
       entries.forEach(function (entry) {
@@ -112,6 +112,26 @@
     }, { threshold: 0.4 });
 
     sections.forEach(function (s) { navObserver.observe(s); });
+  }
+
+
+  // === Parallax Hero Background ===
+  var parallaxEls = document.querySelectorAll('[data-parallax-speed]');
+  if (parallaxEls.length && window.matchMedia('(min-width: 768px)').matches) {
+    var rafPending = false;
+    window.addEventListener('scroll', function () {
+      if (!rafPending) {
+        rafPending = true;
+        requestAnimationFrame(function () {
+          var scrollY = window.scrollY;
+          parallaxEls.forEach(function (el) {
+            var speed = parseFloat(el.getAttribute('data-parallax-speed')) || 0.3;
+            el.style.transform = 'translateY(' + (scrollY * speed) + 'px)';
+          });
+          rafPending = false;
+        });
+      }
+    }, { passive: true });
   }
 
 })();
