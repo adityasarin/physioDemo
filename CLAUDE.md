@@ -6,7 +6,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 Static single-page website for **Dr. Mohammed Wasim Raja Physiotherapy and Slimming Clinic**, located at Shop 17, Mahagun Mart, Sector 78, Noida. No build step, no framework, no package manager — open `index.html` directly in a browser.
 
-**Live domain:** `https://drwasimphysiotherapy.in/`
+**Live domain:** `https://drwasimphysio.com/`
 
 ## File Structure
 
@@ -35,7 +35,7 @@ Fonts: **Poppins** (headings) and **Inter** (body), both from Google Fonts.
 - **Review count** appears in multiple places — the hero badge, the JSON-LD `reviewCount` field, and the testimonials section. Keep them in sync when updating.
 - **Phone numbers:** `+91 9013103095` (primary, WhatsApp) and `+91 120 4245219` (landline). Update both in JSON-LD and visible markup together.
 - **Opening hours** are specified in both the visible schedule grid and the JSON-LD `openingHoursSpecification` blocks. Keep both in sync.
-- The canonical URL, OG tags, and JSON-LD `@id` / `url` fields all point to `https://drwasimphysiotherapy.in/` — don't change these without deploying to that domain.
+- The canonical URL, OG tags, and JSON-LD `@id` / `url` fields all point to `https://drwasimphysio.com/` — don't change these without deploying to that domain.
 
 ## SEO / Structured Data
 

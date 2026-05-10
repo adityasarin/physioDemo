@@ -1,7 +1,7 @@
 # Google Business Profile — Best Practices Guide
 **Dr. Mohammed Wasim Raja Physiotherapy and Slimming Clinic**
 Shop 17, LG Floor, Mahagun Mart, Sector 78, Noida 201305
-Place ID: `ChIJ01xYhInvDDkRUUbvKce4WFY` | Website: drwasimphysiotherapy.in
+Place ID: `ChIJ01xYhInvDDkRUUbvKce4WFY` | Website: drwasimphysio.com
 
 ---
 
@@ -12,7 +12,7 @@ Place ID: `ChIJ01xYhInvDDkRUUbvKce4WFY` | Website: drwasimphysiotherapy.in
 | Overall Rating | **5.0 / 5** | Exceptional — maintain above 4.9 |
 | Review Count | **747+** | Top 1% for physio clinics in NCR |
 | AI-Generated Summary | Active & positive | TECAR, ShockWave, personalised care highlighted |
-| Website linked | Yes | drwasimphysiotherapy.in |
+| Website linked | Yes | drwasimphysio.com |
 | Hours | Correctly set | Two shifts + Sunday |
 | WhatsApp | Listed | +91 9013103095 |
 | Google Posts | Unknown — needs audit | See §5 |
@@ -281,7 +281,7 @@ Check the Q&A section every 7 days. If a user posts a question, answer it within
 
 ## 8. Local SEO — Website ↔ GBP Alignment
 
-The website (drwasimphysiotherapy.in) and the GBP must send identical signals. Any mismatch confuses Google's local ranking algorithm.
+The website (drwasimphysio.com) and the GBP must send identical signals. Any mismatch confuses Google's local ranking algorithm.
 
 ### 8.1 NAP Consistency (Name · Address · Phone)
 The following must be **identical** across GBP, website, Practo, Facebook, and any directory listing:
@@ -293,7 +293,7 @@ Phone:   +91 9013103095
 ```
 
 ### 8.2 Website Signals Already in Place (Strengths)
-- `drwasimphysiotherapy.in` linked to GBP ✅
+- `drwasimphysio.com` linked to GBP ✅
 - JSON-LD `MedicalBusiness` + `LocalBusiness` structured data ✅
 - `FAQPage` schema mirrored from GBP Q&A ✅
 - Canonical URL set ✅
@@ -372,7 +372,7 @@ Access via: Google Business Manager → Your profile → View more insights
 | **Search impressions** | How many times the listing appeared | Track month-over-month growth |
 | **Map views** | Discovery via Google Maps | Should grow with photo uploads |
 | **Direction requests** | High intent — ready-to-visit patients | Track weekly; spike = campaign working |
-| **Website clicks** | Traffic sent to drwasimphysiotherapy.in | Benchmark against site analytics |
+| **Website clicks** | Traffic sent to drwasimphysio.com | Benchmark against site analytics |
 | **Phone calls** | Tracked calls via GBP | Compare to actual call volume |
 | **Review count & velocity** | New reviews per month | Target: 15–20/month |
 | **Photo views** | Engagement with your photos | Upload more if views plateau |
