@@ -4,7 +4,7 @@
 
 This site is hosted on **Cloudflare Pages** and connected to the GitHub repo
 `adityasarin/physioDemo`. Every push to the `main` branch triggers an automatic
-deployment to `https://drwasimphysiotherapy.in/`.
+deployment to `https://drwasimphysio.com/`.
 
 ---
 
@@ -56,7 +56,7 @@ git push origin main
 
 - Cloudflare detects the push and starts a build (usually completes in **30–60 seconds**).
 - Monitor progress at: **Cloudflare Dashboard → Pages → physioDemo → Deployments**
-- Once the deployment shows "Success", visit `https://drwasimphysiotherapy.in/` and hard-refresh (`Ctrl+Shift+R`) to see the changes.
+- Once the deployment shows "Success", visit `https://drwasimphysio.com/` and hard-refresh (`Ctrl+Shift+R`) to see the changes.
 
 ---
 
